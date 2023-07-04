@@ -1,0 +1,46 @@
+
+body{
+    background-color: #F1EAE2;
+    /* Define a cor de fundo do corpo como um bege claro. */
+}
+
+.tituloEParagrafo{
+    display: flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 82px;
+    padding-top: 2%;
+    justify-content: left;
+    padding: 30px;
+}
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    padding-top: 2%;
+    justify-content: left;
+    padding: 30px;
+}
+
+
+
+
+button{
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 48%;
+    height: 35px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+}
