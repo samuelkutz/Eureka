@@ -10,6 +10,17 @@ header {
     border-bottom-right-radius: 15px;
 }
 
+.logo-btn{
+    background-color: #445969;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.logo-btn:hover{
+    scale: 1.1;
+}
 
 .menu-container {
     width: 100%;

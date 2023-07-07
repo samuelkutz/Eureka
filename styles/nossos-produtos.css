@@ -5,7 +5,9 @@ body{
 }
 
 /* estilo do título H2 */
-h2{
+.titulo{
+    margin-bottom: 5%;
+
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;

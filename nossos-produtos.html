@@ -10,36 +10,55 @@
         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300;400;500&display=swap"
         rel="stylesheet">
     <title>Nossos Produtos</title>
+
     <link rel="stylesheet" href="styles\nossos-produtos.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <h2>Nossos Produtos</h2>
-    <section class="nossos-produtos">
-        <div class="produto-item">
-            <p class="nome-produto">Rosalind Franklin</p>
-            <div class="descricao-produtos">
-                <img class="produto-img" src="images\nossos-produtos\dna.png" alt="ícone de DNA">
-                <p>Receba 1 box durante 1 mês com kit experiência.</p>
-            </div>            
-            <button class="botao-produto">Mensal</button>
-        </div>
+    <header>
+        <nav class="menu-container">
+            <a class="link" href="./home.html">HOME</a>
+            <a class="link" href="./contato.html">CONTATO</a>
 
-        <div class="produto-item">
-            <p class="nome-produto">Isaac Newton</p>
-            <div class="descricao-produtos">
-                <img class="produto-img" src="images\nossos-produtos\lupa.png" alt="Ícone de lupa">
-                <p>Receba 1 box durante 3 meses com kit experiência.</p></div>
-            <button class="botao-produto">Trimestral</button>
-        </div>
+            <a class="logo-btn" href="./home.html">
+                <img src="./images/logo-principal.png" alt="logo" class="logo-principal" />
+            </a>
 
-        <div class="produto-item">
-            <p class="nome-produto">Marie Curie</p>
-            <div class="descricao-produtos">
-                <img class="produto-img" src="images\nossos-produtos\atomo.png" alt="Ícone de átomo">
-                <p>Receba 1 box durante 6 meses com kit experiência.</p></div>
-            <button class="botao-produto">Semestral</button>
-        </div>
-    </section>
+            <a class="link" href="./nossos-produtos.html">PRODUTOS</a>
+            <a class="link" href="./login.html">LOGIN</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo">Nossos Produtos</h2>
+        <section class="nossos-produtos">
+            <div class="produto-item">
+                <p class="nome-produto">Rosalind Franklin</p>
+                <div class="descricao-produtos">
+                    <img class="produto-img" src="./images\nossos-produtos\dna.png" alt="ícone de DNA">
+                    <p>Receba 1 box durante 1 mês com kit experiência.</p>
+                </div>            
+                <button class="botao-produto">Mensal</button>
+            </div>
+
+            <div class="produto-item">
+                <p class="nome-produto">Isaac Newton</p>
+                <div class="descricao-produtos">
+                    <img class="produto-img" src="./images\nossos-produtos\lupa.png" alt="Ícone de lupa">
+                    <p>Receba 1 box durante 3 meses com kit experiência.</p></div>
+                <button class="botao-produto">Trimestral</button>
+            </div>
+
+            <div class="produto-item">
+                <p class="nome-produto">Marie Curie</p>
+                <div class="descricao-produtos">
+                    <img class="produto-img" src="./images\nossos-produtos\atomo.png" alt="Ícone de átomo">
+                    <p>Receba 1 box durante 6 meses com kit experiência.</p></div>
+                <button class="botao-produto">Semestral</button>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
