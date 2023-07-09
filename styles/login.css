@@ -25,6 +25,27 @@ form{
     flex-direction: column;
 }
 
+.usuario-form{
+    background-color: #05EFA0;
+    margin-bottom: 10%;
+}
+.usuario-form:-webkit-autofill,
+.usuario-form:-webkit-autofill:hover, 
+.usuario-form:-webkit-autofill:focus, 
+.usuario-form:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #05EFA0 inset !important;
+}
+
+.senha-form{
+    background-color: #06B5F6;
+}
+.senha-form:-webkit-autofill,
+.senha-form:-webkit-autofill:hover, 
+.senha-form:-webkit-autofill:focus, 
+.senha-form:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #06B5F6 inset !important;
+}
+
 input{
     display: block;
     text-align: center;
