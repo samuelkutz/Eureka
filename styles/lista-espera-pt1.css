@@ -1,0 +1,89 @@
+.secao-lista-espera-pt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+
+/* estilo do título */
+.titulo{
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 45px;
+    padding-top: 2%;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px e espaçamento superior de 2%. */
+}
+
+/* estilo do botão do produto */
+.botao-produto{
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 48%;
+    height: 35px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+}
+
+/* estilo do botão do produto ao passar o mouse */
+.botao-produto:hover{
+    background-position: 0 0;
+    transform: scale(1.05);
+    /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
+}
+
+p{
+    /* estilo do p*/
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px e espaçamento superior de 2%. */
+
+}
+
+form{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    width: 50vh;
+    height: 8vh;
+}
+
+::placeholder{
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.botao-produto{
+    margin-top: 10%;
+    margin-left: auto;
+}

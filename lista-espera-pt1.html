@@ -14,8 +14,7 @@
 
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
-    <link rel="stylesheet" href="./styles/lista-espera-pt2.css">
+    <link rel="stylesheet" href="./styles/lista-espera-pt1.css">
     <title>Lista de Espera</title>
 </head>
 
@@ -34,14 +33,24 @@
             <a class="link" href="./login.html">LOGIN</a>
         </nav>
     </header>
-    <h2>Lista de Espera</h2>
-    <p>Ficou inderessadx e quer garantir o seu kit assim que lançarmos? </p>
-    <p>Cadastre-se na nossa lista de espera!</p>
-    <form>
+    <main>
+        <h2 class="titulo">Lista de Espera</h2>
+        <p>Ficou inderessadx e quer garantir o seu kit assim que lançarmos? </p>
+        <p>Cadastre-se na nossa lista de espera!</p>
+        <section class="secao-lista-espera-pt1">
+            <form onsubmit="">
+                <input style="background-color: #05EFA0;margin-bottom: 10%;" type="text" id="user" name="user"
+                    placeholder="Usuário" required>
+                <input style="background-color: #06B5F6;margin-bottom: 10%" type="password" id="senha" name="senha" placeholder="Senha"
+                    required>
+                <input style="background-color: #06B5F6;" type="password" id="conf-senha" name="conf-senha" placeholder="Confirme a senha"
+                    required>
 
-        <button class="submit-button home-btn">Quero Me Inscrever</button>
 
-    </form>
+                <button type="submit" class="botao-produto">Cadastrar na Lista!</button>
+            </form>
+        </section>
+    </main>
 </body>
 <script src="scripts/script.js"></script>
 
