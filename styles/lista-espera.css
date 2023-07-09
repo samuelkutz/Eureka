@@ -1,20 +1,20 @@
-h1 {
+h2 {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
     font-family: 'Quicksand', sans-serif;
     color: #445969;
-    font-size: 82px;
+    font-size: 45px;
     padding-top: 2%;
-    justify-content: left;
-    padding: 30px;
-    text-align: center;
 }
 
 h6 {
     font-family: 'Quicksand', sans-serif;
     color: #445969;
     font-size: 20px;
-    padding-top: 2%;
+    padding-top: 0,5%;
     justify-content: left;
-    padding: 30px;
+    padding: 2px;
     text-align: center;
 }
 
@@ -22,6 +22,7 @@ p {
     font-family: 'Raleway', sans-serif;
     color: #445969;
     font-size: 15px;
+    text-align: center;
 
 }
 
@@ -47,13 +48,21 @@ p {
 }
 
 .form-group label {
-    display: inline-block;
+    display: inline-block; /* nome no lado do input*/
     width: 100px;
+    margin-bottom: 15px;
 }
 
 .form-group input {
     display: inline-block;
-    width: 200px;
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 .submit-button {
@@ -64,7 +73,6 @@ p {
 
 .home-botoes {
     width: 40%;
-
     display: flex;
     justify-content: center;
     gap: 10%;
