@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/lista-espera-pt1.css">
+    <title>Lista de Espera</title>
+</head>
+
+
+<body>
+    <header>
+        <nav class="menu-container">
+            <a class="link" href="./index.html">HOME</a>
+            <a class="link" href="./contato.html">CONTATO</a>
+
+            <a class="logo-btn" href="./index.html">
+                <img src="./images/logo-principal.png" alt="logo" class="logo-principal" />
+            </a>
+
+            <a class="link" href="./nossos-produtos.html">PRODUTOS</a>
+            <a class="link" href="./login.html">LOGIN</a>
+        </nav>
+    </header>
+    <main>
+        <h2 class="titulo">Lista de Espera</h2>
+        <p>Ficou inderessadx e quer garantir o seu kit assim que lançarmos? </p>
+        <p>Cadastre-se na nossa lista de espera!</p>
+        <section class="secao-lista-espera-pt1">
+            <form>
+                <input style="background-color: #05EFA0;margin-bottom: 10%;" type="text" id="user" name="user"
+                    placeholder="Usuário" required>
+                <input style="background-color: #06B5F6;margin-bottom: 10%" type="password" id="senha" name="senha" placeholder="Senha"
+                    required>
+                <input style="background-color: #06B5F6;" type="password" id="conf-senha" name="conf-senha" placeholder="Confirme a senha"
+                    required>
+
+
+                <button type="button" class="botao-produto" onclick="redirectToListaEsperaPt2()">Cadastrar na Lista!</button>
+            </form>
+        </section>
+    </main>
+</body>
+<script src="scripts/script.js"></script>
+
+</html>
