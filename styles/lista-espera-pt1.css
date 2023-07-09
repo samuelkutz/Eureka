@@ -4,7 +4,6 @@
     align-items: center;
   }
   
-  
 
 /* estilo do título */
 .titulo{
@@ -107,5 +106,4 @@ input{
 
 .botao-produto{
     margin-top: 10%;
-    margin-left: auto;
 }
