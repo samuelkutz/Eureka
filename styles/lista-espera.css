@@ -1,33 +1,76 @@
+h1 {
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 82px;
+    padding-top: 2%;
+    justify-content: left;
+    padding: 30px;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 20px;
+    padding-top: 2%;
+    justify-content: left;
+    padding: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 15px;
+
+}
+
 .container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-  }
-  
-  .left-section,
-  .right-section {
-    width: calc(50% - 10px); /* Define a largura de cada seção */
+}
+
+.left-section,
+.right-section {
+    width: calc(50% - 10px);
+    /* Define a largura de cada seção */
     margin-right: 10px;
-  }
-  
-  .input-group {
+}
+
+.input-group {
     margin-bottom: 10px;
-  }
-  
-  .submit-button {
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-group input {
+    display: inline-block;
+    width: 200px;
+}
+
+.submit-button {
     display: block;
     width: 200px;
     margin: 20px auto;
-  }
-  .home-botoes{
+}
+
+.home-botoes {
     width: 40%;
-    
+
     display: flex;
     justify-content: center;
     gap: 10%;
 }
 
-.home-btn{
+.home-btn {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     background-size: 200% 100%;
     background-position: 100% 0;
@@ -44,7 +87,8 @@
     transition: background-position 1s ease-in-out;
     /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
 }
-.home-btn:hover{
+
+.home-btn:hover {
     background-position: 0 0;
     transform: scale(1.05);
     /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
