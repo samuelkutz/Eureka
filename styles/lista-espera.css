@@ -12,7 +12,7 @@ h6 {
     font-family: 'Quicksand', sans-serif;
     color: #445969;
     font-size: 20px;
-    padding-top: 0,5%;
+    padding-top: 0, 5%;
     justify-content: left;
     padding: 2px;
     text-align: center;
@@ -24,6 +24,15 @@ p {
     font-size: 15px;
     text-align: center;
 
+}
+/* estilizaçao do texto de apresentaçao da lista de espera */
+.paragrafo-especifico{
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    padding-top: 0.1%;
+    padding-left: 100px;
+    justify-content: left;
 }
 
 .container {
@@ -48,7 +57,8 @@ p {
 }
 
 .form-group label {
-    display: inline-block; /* nome no lado do input*/
+    display: inline-block;
+    /* nome no lado do input*/
     width: 100px;
     margin-bottom: 15px;
 }
