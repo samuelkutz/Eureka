@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/login.css">
+
+    <script src="./scripts/Models/Client.js" defer></script>
+    <script src="./scripts/Controllers/clientes.js" defer></script>
+    <script src="./scripts/Views/loginView.js"defer ></script>
 </head>
 
 <body>
@@ -37,15 +41,14 @@
         <img class="icone-microscopio" src="images\icon-microscopio.png" alt="Logo de microscópio da Eureka">
         <h2 class="titulo">Entrar na Eureka</h2>
         <section class="secao-login">
-            <form onsubmit="">
+            <form onsubmit="return false" id="login-form">
                 <input class="usuario-form" type="text" id="user" name="user"
                     placeholder="Usuário" required>
                 <input class="senha-form" type="password" id="senha" name="senha" placeholder="Senha"
                     required>
-
                 <div class="botoes-de-acao-login">
-                    <a class="esqueci-senha" href="esqueci-senha.html">Esqueci minha senha</a>
-                    <button type="submit" class="botao-produto">Login</button>
+                    <a class="esqueci-senha" href="./esqueci-senha.html">Esqueci minha senha</a>
+                    <button class="botao-produto" id="botao-login">Login</button>
                 </div>
             </form>
         </section>

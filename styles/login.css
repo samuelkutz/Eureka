@@ -66,8 +66,9 @@ input{
     height: 8vh;
 }
 
+
 /* Define a aparência dos espaços reservados no texto, incluindo o peso da fonte, o tamanho, a família da fonte, o alinhamento do texto e a cor */
-::placeholder{
+::placeholder{ 
     font-weight: 400;
     font-size: larger;
     font-family: 'Raleway', sans-serif;
@@ -88,6 +89,16 @@ input{
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
+}
+
+/* Classe utilizada no HTML criado pelo arquivo loginView.js*/
+.login-invalido{
+    margin: 5%;
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: red;
 }
 
 /* Define a família da fonte, a margem superior e o tamanho da fonte para o link "Esqueci minha senha" */
