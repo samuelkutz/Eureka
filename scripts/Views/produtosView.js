@@ -1,5 +1,21 @@
-const redirectToListaEsperaPt1 = document.querySelector("#produto")
-redirectToListaEsperaPt1.addEventListener("click", function(){
+const redirectToListaEsperaProd1 = document.querySelector("#produto1")
+redirectToListaEsperaProd1.addEventListener("click", function(){
+    //aqui deveria acontecer uma verificacao se o usuario esta logado ou nao
+    //mas isso só daria certo de tivesse como salvar os dados quando se muda de página
+
+    window.location.href="./lista-espera-pt1.html"
+})
+
+const redirectToListaEsperaProd2 = document.querySelector("#produto2")
+redirectToListaEsperaProd2.addEventListener("click", function(){
+    //aqui deveria acontecer uma verificacao se o usuario esta logado ou nao
+    //mas isso só daria certo de tivesse como salvar os dados quando se muda de página
+
+    window.location.href="./lista-espera-pt1.html"
+})
+
+const redirectToListaEsperaProd3 = document.querySelector("#produto3")
+redirectToListaEsperaProd3.addEventListener("click", function(){
     //aqui deveria acontecer uma verificacao se o usuario esta logado ou nao
     //mas isso só daria certo de tivesse como salvar os dados quando se muda de página
 
@@ -20,4 +36,3 @@ function showImage(element) {
     element.querySelector('.produto-img').style.display = 'block';
     element.querySelector('p').style.display = 'block';
   }
-  
