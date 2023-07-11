@@ -1,16 +1,15 @@
 //event listeners
 const loginButton = document.querySelector("#botao-login")
-console.log(loginButton)
 
 loginButton.addEventListener("click", function(){
-    user = document.querySelector("#user").value
-    password = document.querySelector("#senha").value
+    let user = document.querySelector("#user").value
+    let password = document.querySelector("#senha").value
 
-    //verifica se as credenciais combinam com alguma na database
+    //verifica se as credenciais combinam com alguma na "database"
     for (cliente of clientes){
-        console.log(user)
         if(cliente.user == user && cliente.password == password){
             renderSuccessfulLogin(cliente)
+
             return
         }
     }
