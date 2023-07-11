@@ -102,6 +102,8 @@ body{
   /* estilo da imagem substituta ao passar o mouse */
   .descricao-produtos:hover .produto-img-hover {
     display: block;
+    width: 800%;
+    height: 400vh;
   }
   .card {
     width: 300px;

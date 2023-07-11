@@ -31,17 +31,6 @@ p {
     height: 100vh;
 }
 
-.form-container {
-    width: 300px;
-    height: 400px;
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: #333;
-    border: 1px solid #ccc;
-    background-color: #445969;;
-    color: white;
-}
-
 .img-wrapper img {
     height: 400px;
     width: 300px;
@@ -136,10 +125,4 @@ p {
     box-sizing: border-box;
     padding: 20px;
     margin-top: -200px;
-}
-
-.grid-container::after {
-    content: "";
-    display: table;
-    clear: both;
 }
