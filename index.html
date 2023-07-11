@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
 
+    
+    <script src="./scripts/Views/indexView.js" defer></script>
+
     <title>Eureka Home</title>
 </head>
 
@@ -20,7 +23,7 @@
 <body>
     <header>
         <nav class="menu-container">
-            <a class="link" href="./index.html">HOME</a>
+            <a class="link" href="./lista-espera-pt1.html">WAITLIST</a>
             <a class="link" href="./contato.html">CONTATO</a>
 
             <a class="logo-btn" href="./index.html">
@@ -42,11 +45,10 @@
         </div>
 
         <div class="home-botoes">
-            <button href="./nossos-produtos.html" class="home-btn">Nossos Produtos</button>
-            <button class="home-btn" onclick="redirectToListaEsperaPt1()">Lista de Espera</button>
+            <button class="home-btn" id="home-produtos">Nossos Produtos</button>
+            <button class="home-btn" id="home-cadastro">Lista de Espera</button>
         </div>
     </main>
     
 </body>
-<script src="scripts/script.js"></script>
 </html>

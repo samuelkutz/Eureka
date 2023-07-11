@@ -16,12 +16,18 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/login.css">
+
+    <script src="/scripts/Models/validacaoEmail.js" defer></script>
+
+    <script src="./scripts/Models/Client.js" defer></script>
+    <script src="./scripts/Controllers/clientes.js" defer></script>
+    <script src="./scripts/Views/esqueciSenhaView.js"defer ></script>
 </head>
 
 <body>
     <header>
         <nav class="menu-container">
-            <a class="link" href="./index.html">HOME</a>
+            <a class="link" href="./lista-espera-pt1.html">WAITLIST</a>
             <a class="link" href="./contato.html">CONTATO</a>
 
             <a class="logo-btn" href="./index.html">
@@ -37,17 +43,16 @@
         <img class="icone-microscopio" src="images\icon-microscopio.png" alt="Logo de microscópio da Eureka">
         <h2 class="titulo">Recuperar Senha</h2>
         <section class="secao-login">
-            <form onsubmit="">
-                <input style="background-color: #05EFA0;margin-bottom: 5%;" type="text" id="email" name="email"
+            <form onsubmit="return false" id="esqueci-form">
+                <input class="usuario-form" style="background-color: #05EFA0;margin-bottom: 5%;" type="text" id="email" name="email"
                     placeholder="Email" required>
 
                 <div class="botoes-de-acao-login">
                     <a class="esqueci-senha" href="./login.html">Voltar ao Login</a>
-                    <button type="submit" class="botao-produto">Redefinir senha</button>
+                    <button type="submit" class="botao-produto" id="redefinir-senha">Redefinir senha</button>
                 </div>
             </form>
         </section>
     </main>
 </body>
-
 </html>

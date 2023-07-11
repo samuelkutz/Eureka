@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
     <link rel="stylesheet" href="./styles/lista-espera-pt2.css">
+
+    <script src="./scripts/Models/Client.js" defer></script>
+    <script src="./scripts/Views/listaEsperaView2.js" defer></script>
+
     <title>Lista de Espera</title>
 </head>
 
@@ -23,7 +27,7 @@
 <body>
     <header>
         <nav class="menu-container">
-            <a class="link" href="./index.html">HOME</a>
+            <a class="link" href="./lista-espera-pt1.html">WAITLIST</a>
             <a class="link" href="./contato.html">CONTATO</a>
 
             <a class="logo-btn" href="./index.html">
@@ -45,19 +49,19 @@
                     <label>
                         <p>Nome</p>
                     </label>
-                    <input type="text">
+                    <input type="text" id="nome">
                 </div>
                 <div class="input-group form-group">
                     <label>
                         <p>E-mail</p>
                     </label>
-                    <input type="email">
+                    <input type="email" id="email">
                 </div>
                 <div class="input-group form-group">
                     <label>
                         <p>RG</p>
                     </label>
-                    <input type="text">
+                    <input type="text" id="RG">
                 </div>
                 <div class="input-group form-group">
                     <label>
@@ -104,6 +108,4 @@
 
     </form>
 </body>
-<script src="scripts/script.js"></script>
-
 </html>
