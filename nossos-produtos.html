@@ -46,13 +46,25 @@
             </div>
 
             <div class="produto-item">
-                <p class="nome-produto">Isaac Newton</p>
-                <div class="descricao-produtos">
-                    <img class="produto-img" src="./images\nossos-produtos\lupa.png" alt="Ícone de lupa">
-                    <p>Receba 1 box durante 3 meses com kit experiência.</p></div>
+                <p class="nome-produto card-text">Isaac Newton</p>
+                <div
+                  class="descricao-produtos"
+                  onmouseover="showImage(this)"
+                  onmouseout="hideImage(this)"
+                >
+                  <div class="produto-img-container">
+                    <img
+                      class="produto-img change-img"
+                      src="./images/nossos-produtos/lupa.png"
+                      alt="Ícone de lupa"
+                    />
+                  </div>
+                  <p class="descricao-texto">
+                    Receba 1 box durante 3 meses com kit experiência.
+                  </p>
+                </div>
                 <button class="botao-produto">Trimestral</button>
-            </div>
-
+              </div>
             <div class="produto-item">
                 <p class="nome-produto">Marie Curie</p>
                 <div class="descricao-produtos">
@@ -61,6 +73,7 @@
                 <button class="botao-produto">Semestral</button>
             </div>
         </section>
+        <script src="scripts/produtos.js"></script>
     </main>
 </body>
 </html>
