@@ -1,3 +1,11 @@
+const redirectToListaEsperaPt1 = document.querySelector("#produto")
+redirectToListaEsperaPt1.addEventListener("click", function(){
+    //aqui deveria acontecer uma verificacao se o usuario esta logado ou nao
+    //mas isso só daria certo de tivesse como salvar os dados quando se muda de página
+
+    window.location.href="./lista-espera-pt1.html"
+})
+
 function showImage(element) {
     element.style.backgroundImage = "url('./images/nossos-produtos/fundo.jpg')";
     element.style.backgroundSize = "contain";
