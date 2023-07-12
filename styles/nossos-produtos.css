@@ -4,6 +4,18 @@ body{
     /* Define a cor de fundo do corpo como um bege claro. */
 }
 
+.titulo{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.subtitulo-produtos{
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    text-align: center;
+}
+
 /* estilo do título H2 */
 .titulo{
     margin-bottom: 5%;

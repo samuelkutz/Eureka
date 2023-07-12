@@ -2,20 +2,20 @@
 
 const redefSenhaButton = document.querySelector("#redefinir-senha")
 
-redefSenhaButton.addEventListener("click", function() {
+redefSenhaButton.addEventListener("click", function () {
     let email = document.querySelector("#email").value
 
 
-    if (isValidEmail(email)){ //isValidEmail
+    if (isValidEmail(email)) { //isValidEmail
         //finja que o email foi autenticado com 2 fatores e tal :P 
         renderSentEmail(email)
     }
-    else{
+    else {
         renderInvalidEmail()
     }
 })
 
-function renderSentEmail(email){
+function renderSentEmail(email) {
     //adiciona um textinho no final do formulario de login alertando q esta invalido
     let section = document.querySelector(".secao-login")
     section.innerHTML = `
@@ -24,12 +24,12 @@ function renderSentEmail(email){
     `
 }
 
-function renderInvalidEmail(){
+function renderInvalidEmail() {
     //adiciona um textinho no final do formulario de login alertando q esta invalido
     let esqueciMain = document.querySelector("#esqueci-form")
     let invalidEmail = document.createElement("h3")
     invalidEmail.classList.add("login-invalido")
-    invalidEmail.innerText = "Email Inválido" 
+    invalidEmail.innerText = "Email Inválido"
 
     esqueciMain.appendChild(invalidEmail)
 }
