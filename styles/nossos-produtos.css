@@ -7,10 +7,9 @@ h6 {
     font-family: 'Quicksand', sans-serif;
     color: #445969;
     font-size: 20px;
-    padding-top: 0, 5%;
     justify-content: left;
-    padding: 2px;
     text-align: center;
+    margin-bottom: 0%;
 }
 .titulo{
     padding-bottom: 0%;
@@ -27,7 +26,6 @@ h6 {
 /* estilo do título H2 */
 .titulo{
     margin-bottom: 5%;
-
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;

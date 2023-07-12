@@ -34,8 +34,8 @@ p {
     width: 300px;
     filter: grayscale(100%);
     transition: 2s;
-    border: 20px solid #06b5f6; 
-    border-radius: 10px; 
+    border: 2px solid #06b5f6; /* Adicione esta linha para adicionar uma borda */
+    border-radius: 5px; 
 }
 
 .img-wrapper:hover img {
@@ -103,7 +103,10 @@ p {
 .img-wrapper:hover ul li:nth-child(4) {
     transition-delay: 1s;
 }
-
+.img-wrapper ul li i:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0);
+}
 .contato {
     width: 25%;
     float: left;
