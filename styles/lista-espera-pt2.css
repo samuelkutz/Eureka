@@ -20,6 +20,7 @@
     }
 
     p {
+        padding-left: 0;
         font-family: 'Raleway', sans-serif;
         color: #445969;
         font-size: 15px;
@@ -32,21 +33,29 @@
         color: #445969;
         font-size: 22px;
         padding-top: 0.1%;
-        padding-left: 100px;
         justify-content: left;
     }
 
+
     .container {
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
     }
 
     .left-section,
+    .right-section,
+    .title-form-group {
+        width: 50%;
+    }
+
+    .left-section{
+        margin-left: 10%;
+        justify-content: flex-end;
+    }
+
     .right-section {
-        width: calc(50% - 10px);
-        /* Define a largura de cada seção */
-        margin-right: 10px;
+        justify-content: flex-start;
     }
 
     .input-group {

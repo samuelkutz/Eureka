@@ -6,39 +6,22 @@ redirectToListaEsperaPt2.addEventListener("click", function () {
     let user = document.querySelector("#user").value
     let password = document.querySelector("#senha").value
     let confirmPassword = document.querySelector("#conf-senha").value
+    let view = new View()
+    let controller = new Controller()
 
     if (user == "" || password == "" || confirmPassword == "") {
-        renderErrorText("Por favor, preencha todos os campos")
-        return
+        return view.renderErrorText("Por favor, preencha todos os campos")
     }
 
     if (password != confirmPassword) {
-        renderErrorText("Senhas Diferentes!")
-        return
+        return view.renderErrorText("Senhas Diferentes!")
     }
 
-    if (!isValidPassword(password)) {
-        return renderErrorText("Senha muito fraca!")
+    if (!controller.isValidPassword(password)) {
+        return view.renderErrorText("Senha muito fraca!")
     }
 
     //aqui seria onde nós inicializariamos o novo cliente com a senha e tal
 
-    window.location.href = "./lista-espera-pt2.html"
+    window.location.href = "./lista-espera-pt2.html" // redirect p/ preencher o endereço
 })
-
-function renderErrorText(text) {
-
-    //adiciona um textinho no final do formulario de login alertando q esta invalido
-    let listaEsperaForm = document.querySelector("#form-lista-espera-pt1")
-    let errorText = document.getElementById("error-text")
-
-    if (errorText == null) { // serve para evitar criar varios elementos repitidos
-        errorText = document.createElement("h3")
-        errorText.id = "error-text"
-        errorText.classList.add("login-invalido")
-    }
-
-    errorText.innerText = text
-
-    listaEsperaForm.appendChild(errorText)
-}

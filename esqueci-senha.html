@@ -19,8 +19,9 @@
 
     <script src="/scripts/Models/validacaoEmail.js" defer></script>
 
-    <script src="./scripts/Models/Client.js" defer></script>
-    <script src="./scripts/Controllers/clientes.js" defer></script>
+
+    <script src="./scripts/Models/Controller.js" defer></script>
+    <script src="./scripts/Models/View.js" defer></script>
     <script src="./scripts/Views/esqueciSenhaView.js"defer ></script>
 </head>
 
@@ -43,7 +44,7 @@
         <img class="icone-microscopio" src="images\icon-microscopio.png" alt="Logo de microscópio da Eureka">
         <h2 class="titulo">Recuperar Senha</h2>
         <section class="secao-login">
-            <form onsubmit="return false" id="esqueci-form">
+            <form onsubmit="return false" id="form">
                 <input class="usuario-form" style="background-color: #05EFA0;margin-bottom: 5%;" type="text" id="email" name="email"
                     placeholder="Email" required>
 

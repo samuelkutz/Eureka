@@ -17,8 +17,9 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
 
+    <script src="./scripts/Models/Controller.js" defer></script>
+    <script src="./scripts/Models/View.js" defer></script>
     <script src="./scripts/Views/produtosView.js" defer></script>
-    <script src="scripts/produtos.js" defer></script>
 </head>
 
 <body>
@@ -44,7 +45,7 @@
         <section class="nossos-produtos">
             <div class="produto-item">
                 <p class="nome-produto card-text">Rosalind Franklin</p>
-                <div class="descricao-produtos" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                <div class="descricao-produtos" id="descricao-produtos">
                     <img class="produto-img change-img" src="./images\nossos-produtos\dna.png" alt="ícone de DNA">
                     <p class="descricao-texto">Receba 1 box durante 1 mês com kit experiência.</p>
                 </div>
@@ -53,7 +54,7 @@
 
             <div class="produto-item">
                 <p class="nome-produto card-text">Isaac Newton</p>
-                <div class="descricao-produtos" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                <div class="descricao-produtos">
                     <div class="produto-img-container">
                         <img class="produto-img change-img" src="./images/nossos-produtos/lupa.png"
                             alt="Ícone de lupa" />

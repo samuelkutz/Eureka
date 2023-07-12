@@ -4,32 +4,16 @@ const redefSenhaButton = document.querySelector("#redefinir-senha")
 
 redefSenhaButton.addEventListener("click", function () {
     let email = document.querySelector("#email").value
+    let view = new View()
+    let controller = new Controller()
 
-
-    if (isValidEmail(email)) { //isValidEmail
+    if (controller.isValidEmail(email)) { 
         //finja que o email foi autenticado com 2 fatores e tal :P 
-        renderSentEmail(email)
+        view.renderSentEmail(email)
+        
+        setTimeout(() => {window.location.href="./login.html"}, 3000) // redirect home
     }
     else {
-        renderInvalidEmail()
+        view.renderInvalidEmail()
     }
 })
-
-function renderSentEmail(email) {
-    //adiciona um textinho no final do formulario de login alertando q esta invalido
-    let section = document.querySelector(".secao-login")
-    section.innerHTML = `
-    <p class="titulo" style="margin-top: 10%; font-size: larger">Um email com sua nova senha foi enviado para: </p> 
-    <p class="titulo" style="margin-top: 10%; font-size: larger"><b style="padding-left: 10%;">${email}</b></p>
-    `
-}
-
-function renderInvalidEmail() {
-    //adiciona um textinho no final do formulario de login alertando q esta invalido
-    let esqueciMain = document.querySelector("#esqueci-form")
-    let invalidEmail = document.createElement("h3")
-    invalidEmail.classList.add("login-invalido")
-    invalidEmail.innerText = "Email Inválido"
-
-    esqueciMain.appendChild(invalidEmail)
-}
