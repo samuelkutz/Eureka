@@ -18,7 +18,11 @@ redirectToListaEsperaPt2.addEventListener("click", function () {
     }
 
     if (!controller.isValidPassword(password)) {
-        return view.renderErrorText("Senha muito fraca!")
+        return view.renderErrorText("A senha deve ter pelo menos 5 caracteres.")
+    }
+
+    if(controller.passwordStrength(password) == 'fraca'){
+        return view.renderErrorText("Insira letras maiúsculas, números, ou símbolos")
     }
 
     //aqui seria onde nós inicializariamos o novo cliente com a senha e tal
