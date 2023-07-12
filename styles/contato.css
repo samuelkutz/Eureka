@@ -34,6 +34,8 @@ p {
     width: 300px;
     filter: grayscale(100%);
     transition: 2s;
+    border: 20px solid #06b5f6; 
+    border-radius: 10px; 
 }
 
 .img-wrapper:hover img {
@@ -72,7 +74,7 @@ p {
 }
 
 .img-wrapper ul li {
-    background: #333;
+    background: #0590c4;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -100,21 +102,6 @@ p {
 
 .img-wrapper:hover ul li:nth-child(4) {
     transition-delay: 1s;
-}
-
-.img-wrapper ul li a {
-    color: #06b5f6,;
-    background: rgba(255, 255, 255, 0);
-}
-
-.img-wrapper ul li i {
-    color: #06b5f6,;
-    background: rgba(255, 255, 255, 0);
-}
-
-.img-wrapper ul li i:hover {
-    color: #fff;
-    background: #06b5f6,;
 }
 
 .contato {

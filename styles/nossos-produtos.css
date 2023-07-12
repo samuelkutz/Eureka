@@ -3,7 +3,15 @@ body{
     background-color: #F1EAE2;
     /* Define a cor de fundo do corpo como um bege claro. */
 }
-
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 20px;
+    padding-top: 0, 5%;
+    justify-content: left;
+    padding: 2px;
+    text-align: center;
+}
 .titulo{
     padding-bottom: 0%;
     margin-bottom: 0%;
