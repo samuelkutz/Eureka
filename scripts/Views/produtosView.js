@@ -18,12 +18,22 @@ redirectToListaEsperaProd3.addEventListener("click", function () {
     window.location.href = "./lista-espera-pt1.html"
 })
 
-const view = new View()
+function showImage(element, text) {
+    element.style.backgroundImage = "url('./images/nossos-produtos/fundo.jpg')";
+    element.style.backgroundSize = "cover";
+    element.style.backgroundPosition = "center";
+    element.style.opacity = "0.9"
+    element.style.opacity.hover = "0.9;"
+    element.style.transition = "opacity 1s ease-in-out;"
 
-const descricaoProdutos = document.querySelector("#descricao-produtos")
-redirectToListaEsperaProd2.addEventListener("mouseover", function (this) {
-    view.showImage(this)
-})
-redirectToListaEsperaProd2.addEventListener("mouseout", function () {
-    view.hideImagehideImage(descricaoProdutos)
-})
+    element.querySelector('.produto-img').style = "display: 'none'";
+    element.querySelector('p').style.display = 'none';
+    
+}
+
+function hideImage(element) {
+    element.style.opacity = "1"
+    element.style.backgroundImage = "none";
+    element.querySelector('.produto-img').style.display = 'block';
+    element.querySelector('p').style.display = 'block';
+}
