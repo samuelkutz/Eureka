@@ -3,14 +3,19 @@
 const redirectToListaEsperaPt2 = document.querySelector("#botao-lista-espera-pt2")
 redirectToListaEsperaPt2.addEventListener("click", function () {
     //vamos verificar se as senhas sao iguais
-    let user = document.querySelector("#user").value
+    let email = document.querySelector("#email").value
     let password = document.querySelector("#senha").value
     let confirmPassword = document.querySelector("#conf-senha").value
     let view = new View()
     let controller = new Controller()
 
-    if (user == "" || password == "" || confirmPassword == "") {
+
+    if (email == "" || password == "" || confirmPassword == "") {
         return view.renderErrorText("Por favor, preencha todos os campos")
+    }
+
+    if (!controller.isValidEmail(email)){
+        return view.renderErrorText("Email Inválido!")
     }
 
     if (password != confirmPassword) {
