@@ -86,3 +86,13 @@ header {
     transform: scale(1.05);
     /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
 }
+
+/* Classe utilizada no HTML criado pelo arquivo loginView.js*/
+.login-invalido {
+    margin: 5%;
+    font-weight: 400;
+    font-size: medium;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: red;
+}
