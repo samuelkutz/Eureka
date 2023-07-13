@@ -86,3 +86,18 @@ header {
     transform: scale(1.05);
     /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
 }
+
+footer {
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #445969;
+    padding-top: 1%;
+    height: 30px;
+    justify-content: center;
+}
+
+footer h3{
+    color: #F1EAE2;
+    font-family: 'Quicksand', sans-serif;
+}
