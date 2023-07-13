@@ -21,7 +21,7 @@ redirectToListaEsperaPt2.addEventListener("click", function () {
         return view.renderErrorText("A senha deve ter pelo menos 5 caracteres.")
     }
 
-    if(controller.passwordStrength(password) == 'fraca'){
+    if (controller.passwordStrength(password) == 'fraca') {
         return view.renderErrorText("Insira letras maiúsculas, números, ou símbolos")
     }
 

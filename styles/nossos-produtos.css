@@ -1,8 +1,9 @@
 /* estilo do corpo */
-body{
+body {
     background-color: #F1EAE2;
     /* Define a cor de fundo do corpo como um bege claro. */
 }
+
 h6 {
     font-family: 'Quicksand', sans-serif;
     color: #445969;
@@ -12,21 +13,18 @@ h6 {
     margin-bottom: 0%;
     margin-top: 10%;
 }
-.titulo{
-    padding-bottom: 0%;
-    margin-bottom: 0%;
-}
 
-.subtitulo-produtos{
+.subtitulo-produtos {
+    height: fit-content;
     font-family: 'Raleway', sans-serif;
     color: #445969;
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
 }
 
 /* estilo do título H2 */
-.titulo{
-    margin-bottom: 5%;
+.titulo {
+    margin-bottom: 0%;
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
@@ -37,7 +35,7 @@ h6 {
 }
 
 /* estilo da seção de produtos */
-.nossos-produtos{
+.nossos-produtos {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -45,7 +43,7 @@ h6 {
 }
 
 /* estilo do item do produto */
-.produto-item{
+.produto-item {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,17 +52,17 @@ h6 {
 }
 
 /* estilo do nome do produto */
-.nome-produto{
+.nome-produto {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
     /* Define a fonte e o tamanho da fonte para o nome do produto. */
 }
 
 /* estilo da descrição do produto */
-.descricao-produtos{
-    display: flex;  
+.descricao-produtos {
+    display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     flex-direction: column;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
@@ -74,14 +72,14 @@ h6 {
     height: 40vh;
     text-align: center;
     border-radius: 10px;
-    padding: 15px; 
+    padding: 15px;
     padding-bottom: 0px;
     /* Define o layout, fonte, cores, dimensões, alinhamento do texto, arredondamento da borda e preenchimento para a descrição do produto. */
 }
 
 /* estilo da imagem do produto */
-.produto-img{
-    max-height: 100px; 
+.produto-img {
+    max-height: 100px;
     width: auto;
     height: auto;
     display: block;
@@ -89,7 +87,7 @@ h6 {
 }
 
 /* estilo do botão do produto */
-.botao-produto{
+.botao-produto {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     background-size: 200% 100%;
     background-position: 100% 0;
@@ -108,23 +106,25 @@ h6 {
 }
 
 /* estilo do botão do produto ao passar o mouse */
-.botao-produto:hover{
+.botao-produto:hover {
     background-position: 0 0;
     transform: scale(1.05);
     /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
 }
+
 /* estilo da imagem do produto ao passar o mouse */
 .descricao-produtos:hover .produto-img {
     display: none;
-  }
-  
-  /* estilo da imagem substituta ao passar o mouse */
-  .descricao-produtos:hover .produto-img-hover {
+}
+
+/* estilo da imagem substituta ao passar o mouse */
+.descricao-produtos:hover .produto-img-hover {
     display: block;
     width: 800%;
     height: 400vh;
-  }
-  .card {
+}
+
+.card {
     width: 300px;
     height: 200px;
     background-color: lightgray;
@@ -134,13 +134,13 @@ h6 {
     align-items: center;
     position: relative;
     cursor: pointer;
-  }
-  
-  .card-text {
+}
+
+.card-text {
     font-size: 18px;
-  }
-  
-  .card-image {
+}
+
+.card-image {
     display: none;
     width: 100%;
     height: 100%;
@@ -149,4 +149,4 @@ h6 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}

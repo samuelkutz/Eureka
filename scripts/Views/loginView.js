@@ -9,15 +9,15 @@ loginButton.addEventListener("click", function () {
 
     //aqui seria onde verificamos se as credenciais combinam com alguma na "database"
 
-    if (!controller.isValidEmail(email)){
+    if (!controller.isValidEmail(email)) {
         return view.renderErrorText("Email Inválido")
     }
 
-    if (!controller.isValidPassword(password)){
+    if (!controller.isValidPassword(password)) {
         return view.renderErrorText("Senha Inválida")
     }
 
     view.renderSuccessfulLogin()
 
-    setTimeout(() => {window.location.href="./index.html"}, 3000)
+    setTimeout(() => { window.location.href = "./index.html" }, 3000)
 })
