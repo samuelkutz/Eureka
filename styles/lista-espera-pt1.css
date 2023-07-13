@@ -1,0 +1,128 @@
+/* estilo da seção lista de espera pt1 */
+.secao-lista-espera-pt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Configura a seção para ser exibida em linha, centralizada horizontalmente e verticalmente. */
+}
+
+/* estilo do título */
+.titulo {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 45px;
+    padding-top: 2%;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px e espaçamento superior de 2%. */
+}
+
+/* estilo do botão do produto */
+.botao-produto {
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 48%;
+    height: 35px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+}
+
+/* estilo do botão do produto ao passar o mouse */
+.botao-produto:hover {
+    background-position: 0 0;
+    transform: scale(1.05);
+    /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
+}
+
+p {
+    /* estilo do p*/
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px e espaçamento superior de 2%. */
+
+}
+
+/* estilo do formulário */
+form{
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Configura o formulário para ter um preenchimento superior de 3%, ser exibido em coluna e centralizado. */
+}
+
+/* estilo do campo de entrada de usuário */
+.usuario-form{
+    background-color: #05EFA0;
+    margin-bottom: 10%;
+    /* Define a cor de fundo como um verde claro e a margem inferior como 10%. */
+}
+
+/* estilo do campo de entrada de usuário quando autofill está ativo */
+.usuario-form:-webkit-autofill,
+.usuario-form:-webkit-autofill:hover, 
+.usuario-form:-webkit-autofill:focus, 
+.usuario-form:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #05EFA0 inset !important;
+    /* Define a cor de fundo como um verde claro quando autofill está ativo. */
+}
+
+/* estilo do campo de entrada de senha */
+.senha-form{
+    background-color: #06B5F6;
+    margin-bottom: 10%;
+    /* Define a cor de fundo como um azul claro e a margem inferior como 10%. */
+}
+
+/* estilo do campo de entrada de senha quando autofill está ativo */
+.senha-form:-webkit-autofill,
+.senha-form:-webkit-autofill:hover, 
+.senha-form:-webkit-autofill:focus, 
+.senha-form:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px #06B5F6 inset !important;
+    /* Define a cor de fundo como um azul claro quando autofill está ativo. */
+}
+
+/* estilo dos campos de entrada */
+input{
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    width: 50vh;
+    height: 8vh;
+    /* Define os campos de entrada para serem exibidos em bloco, centralizados, com a fonte Raleway, em negrito, com borda arredondada, sem borda e com dimensões específicas. */
+}
+
+/* estilo do placeholder */
+::placeholder{
+    font-weight: 400;
+    font-size: larger;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    /* Define o placeholder para ter a fonte Raleway, tamanho maior, alinhado ao centro e cor preta. */
+}
+
+/* estilo do botão do produto no formulário */
+.botao-produto{
+    margin-top: 10%;
+    /* Define a margem superior do botão do produto como 10%. */
+}

@@ -1,0 +1,89 @@
+body{
+    background-color: #F1EAE2;
+    /* Define a cor de fundo do corpo como um bege claro. */
+}
+
+.tituloEParagrafo{
+    height: 20%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 82px;
+    justify-content: left;
+    padding-left: 30px;
+}
+
+.home-botoes{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    gap: 5%;
+    padding-left: 30px;
+}
+
+.home-btn{
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 0%;
+    padding-top: 0%;
+    border-radius: 10px;
+    width: 35%;
+    height: 40px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+}
+.home-btn:hover{
+    background-position: 0 0;
+    transform: scale(1.05);
+    /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
+}
+
+.container-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+iframe {
+    width: fit-content;
+    display: flex;
+    justify-content: right;
+    border-radius: 15px;
+    margin-top: 5%;
+    margin-right: 15%;
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    border: 4px solid transparent;
+}
+
+.text-container{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    padding-top: 1%;
+    padding-left: 30px;
+    justify-content: left;
+    width: 170%;
+}

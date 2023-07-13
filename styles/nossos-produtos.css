@@ -1,0 +1,152 @@
+/* estilo do corpo */
+body{
+    background-color: #F1EAE2;
+    /* Define a cor de fundo do corpo como um bege claro. */
+}
+h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 20px;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: 10%;
+}
+.titulo{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.subtitulo-produtos{
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    text-align: center;
+}
+
+/* estilo do título H2 */
+.titulo{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 45px;
+    padding-top: 2%;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px e espaçamento superior de 2%. */
+}
+
+/* estilo da seção de produtos */
+.nossos-produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* Define a seção de produtos para ser exibida em linha com espaço igual entre os itens. */
+}
+
+/* estilo do item do produto */
+.produto-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    /* Configura o item do produto para ser exibido em coluna, alinhado ao centro e com largura de 30%. */
+}
+
+/* estilo do nome do produto */
+.nome-produto{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    /* Define a fonte e o tamanho da fonte para o nome do produto. */
+}
+
+/* estilo da descrição do produto */
+.descricao-produtos{
+    display: flex;  
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #05EFA0;
+    background-color: #445969;
+    width: 40%;
+    height: 40vh;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px; 
+    padding-bottom: 0px;
+    /* Define o layout, fonte, cores, dimensões, alinhamento do texto, arredondamento da borda e preenchimento para a descrição do produto. */
+}
+
+/* estilo da imagem do produto */
+.produto-img{
+    max-height: 100px; 
+    width: auto;
+    height: auto;
+    display: block;
+    /* Configura a imagem do produto para ter altura máxima de 100px e largura automática. */
+}
+
+/* estilo do botão do produto */
+.botao-produto{
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 0%;
+    border-radius: 10px;
+    width: 48%;
+    height: 35px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+}
+
+/* estilo do botão do produto ao passar o mouse */
+.botao-produto:hover{
+    background-position: 0 0;
+    transform: scale(1.05);
+    /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
+}
+/* estilo da imagem do produto ao passar o mouse */
+.descricao-produtos:hover .produto-img {
+    display: none;
+  }
+  
+  /* estilo da imagem substituta ao passar o mouse */
+  .descricao-produtos:hover .produto-img-hover {
+    display: block;
+    width: 800%;
+    height: 400vh;
+  }
+  .card {
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .card-text {
+    font-size: 18px;
+  }
+  
+  .card-image {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

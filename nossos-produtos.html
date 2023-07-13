@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="descricao-preconnect" href="https://fonts.googleapis.com%22%3E/">
+    <link rel="descricao-preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Raleway:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <title>Nossos Produtos</title>
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles\nossos-produtos.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+
+    <script src="./scripts/Models/View.js" defer></script>
+    <script src="./scripts/Views/produtosView.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="menu-container">
+            <a class="link" href="./lista-espera-pt1.html">WAITLIST</a>
+            <a class="link" href="./contato.html">CONTATO</a>
+
+            <a class="logo-btn" href="./index.html">
+                <img src="./images/logo-principal.png" alt="logo" class="logo-principal" />
+            </a>
+
+            <a class="link" href="./nossos-produtos.html">PRODUTOS</a>
+            <a class="link" href="./login.html">LOGIN</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo">Nossos Produtos</h2>
+        <p class="subtitulo-produtos">Receba mensalmente uma caixa personalizada de acordo com a experiência do mês.</p>
+        <p class="subtitulo-produtos">Escolha um dos nossos planos!</p>
+
+        <section class="nossos-produtos">
+            <div class="produto-item">
+                <p class="nome-produto card-text">Rosalind Franklin</p>
+                <div class="descricao-produtos" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                    <img class="produto-img change-img" src="./images\nossos-produtos\dna.png" alt="ícone de DNA">
+                    <p class="descricao-texto">Receba 1 box durante 1 mês com kit experiência.</p>
+                </div><div> <h6>R$ 89,90 </h6></div>
+                <button class="botao-produto" id="produto1">Mensal</button>
+            </div>
+
+            <div class="produto-item">
+                <p class="nome-produto card-text">Isaac Newton</p>
+                <div class="descricao-produtos" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                    <div class="produto-img-container">
+                        <img class="produto-img change-img" src="./images/nossos-produtos/lupa.png"
+                            alt="Ícone de lupa" />
+                    </div>
+                    <p class="descricao-texto">
+                        Receba 1 box durante 3 meses com kit experiência.
+                    </p>
+                </div>
+                <div><h6>3 x R$ 69,90 </h6></div>
+                <button class="botao-produto" id="produto2">Trimestral</button>
+            </div>
+            <div class="produto-item">
+                <p class="nome-produto card-text">Marie Curie</p>
+                <div class="descricao-produtos" onmouseover="showImage(this)" onmouseout="hideImage(this)">
+                    <div class="produto-img-container"></div>
+                    <img class="produto-img change-img" src="./images\nossos-produtos\atomo.png" alt="Ícone de átomo">
+                    <p class="descricao-texto">Receba 1 box durante 6 meses com kit experiência.</p>
+                </div>
+                <div><h6>6 x R$ 49,90</h6> </div>
+                <button class="botao-produto" id="produto3">Semestral</button>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
