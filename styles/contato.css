@@ -9,35 +9,45 @@ h2 {
 p {
     font-family: 'Raleway', sans-serif;
     color: #445969;
-    font-size: 22px;
+    font-size: 16px;
     text-align: center;
 }
 
 .img-wrapper {
-    width: max-content;
-    height: max-content;
+    width: 150px;
+    /* reduzindo a largura */
+    height: 225px;
+    /* reduzindo a altura */
     position: relative;
     overflow: hidden;
     border-radius: 15px;
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    border: 4px solid transparent;
 }
 
 .container {
-    width: max-content;
+    width: 100%;
     height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 40vh;
 }
 
+
 .img-wrapper img {
-    height: 400px;
-    width: 300px;
+    height: 100%;
+    /* definindo a altura para 100% para preencher o contêiner */
+    width: 100%;
+    /* definindo a largura para 100% para preencher o contêiner */
+    object-fit: cover;
+    /* garantindo que a imagem cubra todo o espaço disponível sem distorção */
     filter: grayscale(100%);
     transition: 2s;
-    border: 2px solid #06b5f6; /* Adicione esta linha para adicionar uma borda */
-    border-radius: 5px; 
+    border: 2px solid #06b5f6;
+    border-radius: 5px;
 }
+
 
 .img-wrapper:hover img {
     filter: grayscale(0%);
@@ -47,17 +57,20 @@ p {
 .img-wrapper h2 {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     font-family: 'Raleway', sans-serif;
-    color:#445969;
+    color: #445969;
     text-align: center;
     margin: 0;
     padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
+    font-size: 20px;
+    /* Diminuir o tamanho da fonte aqui */
     transform: perspective(400px) rotateY(90deg);
     transform-origin: right;
     transition: 1s;
 }
+
 
 .img-wrapper:hover h2 {
     transform: perspective(400px) rotateY(0deg);
@@ -103,6 +116,7 @@ p {
 .img-wrapper:hover ul li:nth-child(4) {
     transition-delay: 1s;
 }
+
 .img-wrapper ul li i:hover {
     color: #fff;
     background: rgba(255, 255, 255, 0);
@@ -113,10 +127,11 @@ p {
     float: left;
     box-sizing: border-box;
     padding: 20px;
-    margin-top: -200px;
+    margin-top: 0px;
 }
 
-.titulo-contatos{
-    padding-top: 5%;
-    padding-bottom: 10%;
+.titulo-contatos {
+    height: fit-content;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }

@@ -1,5 +1,5 @@
-body{
-    background-color: #F1EAE2 ;
+body {
+    background-color: #F1EAE2;
 }
 
 header {
@@ -10,7 +10,7 @@ header {
     border-bottom-right-radius: 15px;
 }
 
-.logo-btn{
+.logo-btn {
     background-color: #445969;
     border: none;
     background: none;
@@ -18,7 +18,7 @@ header {
     transition: 0.1s;
 }
 
-.logo-btn:hover{
+.logo-btn:hover {
     scale: 1.1;
 }
 
@@ -30,7 +30,7 @@ header {
 
     display: flex;
     align-items: center;
-    justify-content:space-between ;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -41,15 +41,15 @@ header {
     font-size: x-large;
 }
 
-.logo-principal{
+.logo-principal {
     text-align: center;
     height: 125px;
     border-radius: 10px;
-    position:static;
+    position: static;
 }
 
 /* estilo do título H2 */
-.titulo{
+.titulo {
     margin-bottom: 5%;
 
     display: flex;
@@ -62,7 +62,7 @@ header {
 }
 
 /* estilo do botão do produto */
-.botao-produto{
+.botao-produto {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     background-size: 200% 100%;
     background-position: 100% 0;
@@ -81,7 +81,7 @@ header {
 }
 
 /* estilo do botão do produto ao passar o mouse */
-.botao-produto:hover{
+.botao-produto:hover {
     background-position: 0 0;
     transform: scale(1.05);
     /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */

@@ -16,13 +16,13 @@
 }
 
 /* Define as propriedades do título, incluindo a margem e o preenchimento superior */
-.titulo{
+.titulo {
     padding-top: 0%;
     margin-top: 0;
 }
 
 /* Define o layout do formulário com os campos alinhados em uma coluna e centralizados */
-form{
+form {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,32 +30,34 @@ form{
 }
 
 /* Define a cor de fundo e a margem inferior do campo do usuário */
-.usuario-form{
+.usuario-form {
     background-color: #05EFA0;
     margin-bottom: 10%;
 }
+
 /* Altera a cor de fundo do campo do usuário ao preenchê-lo com a função de autocompletar */
 .usuario-form:-webkit-autofill,
-.usuario-form:-webkit-autofill:hover, 
-.usuario-form:-webkit-autofill:focus, 
+.usuario-form:-webkit-autofill:hover,
+.usuario-form:-webkit-autofill:focus,
 .usuario-form:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px #05EFA0 inset !important;
 }
 
 /* Define a cor de fundo do campo da senha */
-.senha-form{
+.senha-form {
     background-color: #06B5F6;
 }
+
 /* Altera a cor de fundo do campo da senha ao preenchê-lo com a função de autocompletar */
 .senha-form:-webkit-autofill,
-.senha-form:-webkit-autofill:hover, 
-.senha-form:-webkit-autofill:focus, 
+.senha-form:-webkit-autofill:hover,
+.senha-form:-webkit-autofill:focus,
 .senha-form:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 30px #06B5F6 inset !important;
 }
 
 /* Define a aparência geral dos campos de entrada, incluindo o alinhamento do texto, a fonte, o tamanho e a cor */
-input{
+input {
     display: block;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -68,7 +70,7 @@ input{
 
 
 /* Define a aparência dos espaços reservados no texto, incluindo o peso da fonte, o tamanho, a família da fonte, o alinhamento do texto e a cor */
-::placeholder{ 
+::placeholder {
     font-weight: 400;
     font-size: larger;
     font-family: 'Raleway', sans-serif;
@@ -77,14 +79,14 @@ input{
 }
 
 /* Define a posição do botão do produto */
-.botao-produto{
+.botao-produto {
     float: right;
 }
 
 /* Define o layout, as margens e a largura da div que contém os botões de ação de login */
-.botoes-de-acao-login{
+.botoes-de-acao-login {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: flex-end;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -92,7 +94,7 @@ input{
 }
 
 /* Classe utilizada no HTML criado pelo arquivo loginView.js*/
-.login-invalido{
+.login-invalido {
     margin: 5%;
     font-weight: 400;
     font-size: medium;
@@ -102,18 +104,19 @@ input{
 }
 
 /* Define a família da fonte, a margem superior e o tamanho da fonte para o link "Esqueci minha senha" */
-.esqueci-senha{
+.esqueci-senha {
     font-family: 'Raleway', sans-serif;
-    margin-top: auto; 
+    margin-top: auto;
     font-size: 15px;
 }
 
 /* Define a cor e a decoração do texto para o link "Esqueci minha senha" em seu estado normal e visitado */
-.esqueci-senha:link{
+.esqueci-senha:link {
     color: black;
     text-decoration: none;
 }
-.esqueci-senha:visited{
+
+.esqueci-senha:visited {
     color: black;
     text-decoration: none;
 }

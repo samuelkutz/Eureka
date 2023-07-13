@@ -28,7 +28,7 @@ function showImage(element, text) {
 
     element.querySelector('.produto-img').style = "display: 'none'";
     element.querySelector('p').style.display = 'none';
-    
+
 }
 
 function hideImage(element) {
