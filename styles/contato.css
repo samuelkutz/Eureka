@@ -14,10 +14,11 @@ p {
 }
 
 .img-wrapper {
-    width: 300px;
-    height: 400px;
+    width: max-content;
+    height: max-content;
     position: relative;
     overflow: hidden;
+    border-radius: 15px;
 }
 
 .container {
@@ -45,10 +46,9 @@ p {
 
 .img-wrapper h2 {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
-    font-family: Poppins;
+    font-family: 'Raleway', sans-serif;
     color:#445969;
     text-align: center;
-    text-transform: uppercase;
     margin: 0;
     padding: 10px 0;
     position: absolute;
@@ -107,6 +107,7 @@ p {
     color: #fff;
     background: rgba(255, 255, 255, 0);
 }
+
 .contato {
     width: 25%;
     float: left;
