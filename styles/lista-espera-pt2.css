@@ -1,144 +1,173 @@
-    h2 {
-        margin-bottom: 5%;
-        display: flex;
-        justify-content: center;
-        font-family: 'Quicksand', sans-serif;
-        color: #445969;
-        font-size: 45px;
-        padding-top: 2%;
-        margin-bottom: 20px;
-    }
+/* Estilo do título H2 */
+h2 {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 45px;
+    padding-top: 2%;
+    margin-bottom: 20px;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 45px, espaçamento superior de 2% e margem inferior de 20px. */
+}
 
-    h3 {
-        font-family: 'Quicksand', sans-serif;
-        color: #445969;
-        font-size: 20px;
-        padding-top: 0, 5%;
-        justify-content: left;
-        padding: 2px;
-        text-align: center;
-    }
+/* Estilo do título H3 */
+h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #445969;
+    font-size: 20px;
+    padding-top: 0, 5%;
+    justify-content: left;
+    padding: 2px;
+    text-align: center;
+    /* Configura o título para ter a fonte Quicksand, cor cinza-azulada, tamanho de fonte de 20px, espaçamento superior de 0,5%, justificação à esquerda, preenchimento de 2px e alinhamento central. */
+}
 
-    p {
-        padding-left: 0;
-        font-family: 'Raleway', sans-serif;
-        color: #445969;
-        font-size: 15px;
-        text-align: center;
+/* Estilo do parágrafo */
+p {
+    padding-left: 0;
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 15px;
+    text-align: center;
+    /* Configura o parágrafo para ter a fonte Raleway, cor cinza-azulada, tamanho de fonte de 15px, alinhamento central e remoção de preenchimento à esquerda. */
+}
 
-    }
+/* Estilização do texto de apresentação da lista de espera */
+.paragrafo-especifico {
+    font-family: 'Raleway', sans-serif;
+    color: #445969;
+    font-size: 22px;
+    padding-top: 0.1%;
+    width: auto;
+    height: auto;
+    /* Configura o texto de apresentação para ter a fonte Raleway, cor cinza-azulada, tamanho de fonte de 22px, espaçamento superior de 0,1%, largura e altura automáticas. */
+}
 
-    /* estilizaçao do texto de apresentaçao da lista de espera */
-    .paragrafo-especifico {
-        font-family: 'Raleway', sans-serif;
-        color: #445969;
-        font-size: 22px;
-        padding-top: 0.1%;
-        width: auto;
-        height: auto;
-    }
+/* Estilo do container */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Configura o container para ocupar 100% da largura, ter exibição flexível com espaço igual entre os elementos e alinhamento vertical central. */
+}
 
+/* Estilo das seções esquerda e direita */
+.left-section,
+.right-section,
+.title-form-group {
+    width: 50%;
+    /* Configura as seções esquerda e direita, e os títulos dos grupos do formulário, para ocuparem 50% da largura. */
+}
 
-    .container {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+/* Estilo do título do grupo do formulário */
+.title-form-group {
+    display: flex;
+    justify-content: center;
+    /* Configura o título do grupo do formulário para ser centralizado. */
+}
 
-    .left-section,
-    .right-section,
-    .title-form-group {
-        width: 50%;
-    }
+/* Estilo da seção esquerda */
+.left-section {
+    margin-left: 10%;
+    justify-content: flex-end;
+    /* Configura a seção esquerda para ter margem à esquerda de 10% e justificação à direita. */
+}
 
-    .title-form-group {
-        display: flex;
-        justify-content: center;
-    }
+/* Estilo da seção direita */
+.right-section {
+    justify-content: flex-start;
+    /* Configura a seção direita para ter justificação à esquerda. */
+}
 
-    .left-section {
-        margin-left: 10%;
-        justify-content: flex-end;
-    }
+/* Estilo do grupo de input */
+.input-group {
+    margin-bottom: 10px;
+    /* Configura o grupo de input para ter margem inferior de 10px. */
+}
 
-    .right-section {
-        justify-content: flex-start;
-    }
+/* Estilo do grupo de formulário */
+.form-group {
+    margin-bottom: 10px;
+    /* Configura o grupo de formulário para ter margem inferior de 10px. */
+}
 
-    .input-group {
-        margin-bottom: 10px;
-    }
+/* Estilo do rótulo do formulário */
+.form-group label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    /* Configura o rótulo do formulário para ter exibição em bloco, largura de 100px, margem inferior de 15px e margem direita de 10px. */
+}
 
-    .form-group {
-        margin-bottom: 10px;
-    }
+/* Estilo do input do formulário */
+.form-group input {
+    display: inline-block;
+    width: 50%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    /* Configura o input do formulário para ter exibição em bloco, largura de 50%, altura de 40px, preenchimento de 8px, borda arredondada de 20px, sem borda, alinhamento central, fonte Raleway, peso da fonte em negrito, margem inferior de 10px e margem direita de 10px. */
+}
 
-    .form-group label {
-        display: inline-block;
-        /* nome no lado do input*/
-        width: 100px;
-        margin-bottom: 15px;
-        margin-right: 10px;
-    }
+/* Estilo dos títulos do formulário */
+.titulos-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    /* Configura os títulos do formulário para ocuparem 100% da largura, terem altura automática, exibição flexível em linha, espaçamento superior de 5% e espaçamento inferior de 3%. */
+}
 
-    .form-group input {
-        display: inline-block;
-        width: 50%;
-        height: 40px;
-        padding: 8px;
-        border-radius: 20px;
-        border: none;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-        font-weight: bold;
-        margin-bottom: 10px;
-        margin-right: 10px;
-        /* adiciona margem na direita para separar o input e o label */
-    }
+/* Estilo do botão de envio */
+.submit-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    /* Configura o botão de envio para ter exibição em bloco, largura de 200px e margem automática com 20px. */
+}
 
-    .titulos-form {
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        padding-top: 5%;
-        padding-bottom: 3%;
-    }
+/* Estilo dos botões na página inicial */
+.home-botoes {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    /* Configura os botões na página inicial para ocuparem 40% da largura, terem exibição flexível com justificação central e espaçamento entre os elementos de 10%. */
+}
 
-    .submit-button {
-        display: block;
-        width: 200px;
-        margin: 20px auto;
-    }
+/* Estilo do botão na página inicial */
+.home-btn {
+    background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: black;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 20%;
+    height: 35px;
+    cursor: pointer;
+    transition: background-position 1s ease-in-out;
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão da página inicial. */
+}
 
-    .home-botoes {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        gap: 10%;
-    }
-
-    .home-btn {
-        background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
-        background-size: 200% 100%;
-        background-position: 100% 0;
-        border: none;
-        text-align: center;
-        font-family: 'Raleway', sans-serif;
-        font-weight: 500;
-        color: black;
-        margin-top: 5%;
-        border-radius: 10px;
-        width: 20%;
-        height: 35px;
-        cursor: pointer;
-        transition: background-position 1s ease-in-out;
-        /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
-    }
-
-    .home-btn:hover {
-        background-position: 0 0;
-        transform: scale(1.05);
-        /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
-    }
+/* Estilo do botão na página inicial ao passar o mouse */
+.home-btn:hover {
+    background-position: 0 0;
+    transform: scale(1.05);
+    /* Configura o botão na página inicial ao passar o mouse para ter a posição de fundo alterada e uma transformação de escala de 1,05. */
+}

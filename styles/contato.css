@@ -1,30 +1,35 @@
+/* estilo do título h2 */
 h2 {
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     color: #445969;
     font-size: 45px;
+    /* Configura o título para ser centralizado, com a fonte Quicksand, cor cinza-azulada e tamanho de fonte de 45px. */
 }
 
+/* estilo do parágrafo */
 p {
     font-family: 'Raleway', sans-serif;
     color: #445969;
     font-size: 16px;
     text-align: center;
+    /* Configura o parágrafo com a fonte Raleway, cor cinza-azulada, tamanho de fonte de 16px e alinhamento centralizado. */
 }
 
+/* estilo do contêiner da imagem */
 .img-wrapper {
-    width: 150px;
-    /* reduzindo a largura */
-    height: 225px;
-    /* reduzindo a altura */
+    width: 150px; /* Reduzindo a largura */
+    height: 225px; /* Reduzindo a altura */
     position: relative;
     overflow: hidden;
     border-radius: 15px;
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     border: 4px solid transparent;
+    /* Configura o contêiner da imagem com largura de 150px, altura de 225px, borda arredondada, gradiente de fundo e borda transparente. */
 }
 
+/* estilo do contêiner */
 .container {
     width: 100%;
     height: max-content;
@@ -32,28 +37,29 @@ p {
     justify-content: center;
     align-items: center;
     height: 40vh;
+    /* Configura o contêiner para ser exibido em linha, centralizado verticalmente e ter uma altura máxima. */
 }
 
-
+/* estilo da imagem */
 .img-wrapper img {
     height: 100%;
-    /* definindo a altura para 100% para preencher o contêiner */
     width: 100%;
-    /* definindo a largura para 100% para preencher o contêiner */
     object-fit: cover;
-    /* garantindo que a imagem cubra todo o espaço disponível sem distorção */
     filter: grayscale(100%);
     transition: 2s;
     border: 2px solid #06b5f6;
     border-radius: 5px;
+    /* Configura a imagem para preencher o contêiner, aplicar escala de cinza e ter uma transição de 2 segundos. */
 }
 
-
+/* estilo da imagem ao passar o mouse */
 .img-wrapper:hover img {
     filter: grayscale(0%);
     transform: scale(1.1);
+    /* Configura a imagem para remover o filtro de escala de cinza e aplicar uma escala de 1.1 ao passar o mouse. */
 }
 
+/* estilo do título ao passar o mouse */
 .img-wrapper h2 {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     font-family: 'Raleway', sans-serif;
@@ -64,18 +70,20 @@ p {
     position: absolute;
     bottom: 0;
     width: 100%;
-    font-size: 20px;
-    /* Diminuir o tamanho da fonte aqui */
+    font-size: 20px; /* Diminuir o tamanho da fonte aqui */
     transform: perspective(400px) rotateY(90deg);
     transform-origin: right;
     transition: 1s;
+    /* Configura o título para ter um fundo gradiente, fonte Raleway, cor cinza-azulada, alinhamento centralizado, margem e preenchimento personalizados, rotação e transição ao passar o mouse. */
 }
 
-
+/* estilo do título ao passar o mouse */
 .img-wrapper:hover h2 {
     transform: perspective(400px) rotateY(0deg);
+    /* Configura o título para retornar à posição original ao passar o mouse. */
 }
 
+/* estilo da lista de ícones */
 .img-wrapper ul {
     position: absolute;
     top: 0;
@@ -84,8 +92,10 @@ p {
     padding: 0;
     list-style: none;
     background: rgba(255, 255, 255, 0);
+    /* Configura a lista de ícones para ser posicionada absolutamente no canto superior esquerdo e ter um fundo transparente. */
 }
 
+/* estilo dos itens da lista de ícones */
 .img-wrapper ul li {
     background: #0590c4;
     height: 40px;
@@ -95,43 +105,56 @@ p {
     transform: perspective(800px) rotateY(90deg);
     transition: .5s;
     transform-origin: left;
+    /* Configura os itens da lista de ícones para ter um fundo azul, altura e largura de 40px, alinhamento centralizado, rotação e transição ao passar o mouse. */
 }
 
+/* estilo dos itens da lista de ícones ao passar o mouse */
 .img-wrapper:hover ul li {
     transform: perspective(800px) rotateY(0deg);
+    /* Configura os itens da lista de ícones para retornar à posição original ao passar o mouse. */
 }
 
+/* estilo dos itens da lista de ícones ao passar o mouse */
 .img-wrapper:hover ul li:nth-child(1) {
     transition-delay: .2s;
 }
 
+/* estilo dos itens da lista de ícones ao passar o mouse */
 .img-wrapper:hover ul li:nth-child(2) {
     transition-delay: .6s;
 }
 
+/* estilo dos itens da lista de ícones ao passar o mouse */
 .img-wrapper:hover ul li:nth-child(3) {
     transition-delay: .8s;
 }
 
+/* estilo dos itens da lista de ícones ao passar o mouse */
 .img-wrapper:hover ul li:nth-child(4) {
     transition-delay: 1s;
 }
 
+/* estilo do ícone ao passar o mouse */
 .img-wrapper ul li i:hover {
     color: #fff;
     background: rgba(255, 255, 255, 0);
+    /* Configura o ícone para ter cor branca e fundo transparente ao passar o mouse. */
 }
 
+/* estilo do contêiner de contato */
 .contato {
     width: 25%;
     float: left;
     box-sizing: border-box;
     padding: 20px;
     margin-top: 0px;
+    /* Configura o contêiner de contato para ter uma largura de 25%, flutuar à esquerda, caixa-modelo com preenchimento personalizado e margem superior personalizada. */
 }
 
+/* estilo do título do contêiner de contatos */
 .titulo-contatos {
     height: fit-content;
     padding-top: 2%;
     padding-bottom: 3%;
+    /* Configura o título do contêiner de contatos para ter altura ajustável ao conteúdo, preenchimento superior e inferior personalizado. */
 }

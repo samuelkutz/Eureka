@@ -1,65 +1,78 @@
+/* estilo do corpo da página */
 body {
     background-color: #F1EAE2;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    /* Define a cor de fundo, o layout do corpo da página como flex, altura mínima de 100vh e direção de coluna. */
 }
 
-main{
+/* estilo do conteúdo principal */
+main {
     padding-bottom: 20px;
     flex-grow: 1;
+    /* Adiciona espaço inferior de 20px e faz o conteúdo principal crescer flexivelmente. */
 }
 
+/* estilo do cabeçalho */
 header {
     display: flex;
     padding: 5px 15px 10px 15px;
     background-color: #445969;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    /* Configura o layout do cabeçalho, adiciona preenchimento e define a cor de fundo e os cantos arredondados. */
 }
 
+/* estilo do botão do logo */
 .logo-btn {
     background-color: #445969;
     border: none;
     background: none;
     cursor: pointer;
     transition: 0.1s;
+    /* Configura o botão do logo com fundo transparente, sem borda, cursor como ponteiro e uma transição de 0.1s. */
 }
 
 .logo-btn:hover {
     scale: 1.1;
+    /* Aumenta a escala do botão do logo quando o mouse passa sobre ele. */
 }
 
+/* estilo do container do menu */
 .menu-container {
     width: 100%;
     height: 100%;
     padding-left: 5%;
     padding-right: 5%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+    /* Define o layout, preenchimento e espaçamento do container do menu. */
 }
 
+/* estilo dos links do menu */
 .link {
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     color: #05EFA0;
     font-size: x-large;
+    /* Configura a fonte, cor e tamanho dos links do menu. */
 }
 
+/* estilo do logo principal */
 .logo-principal {
     text-align: center;
     height: 125px;
     border-radius: 10px;
     position: static;
+    /* Define o alinhamento do texto, altura, arredondamento da borda e posicionamento do logo principal. */
 }
 
 /* estilo do título H2 */
 .titulo {
     margin-bottom: 5%;
-
     display: flex;
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
@@ -103,10 +116,12 @@ header {
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: red;
+    /* Configura a margem, peso da fonte, tamanho da fonte, fonte, alinhamento do texto e cor para a classe "login-invalido". */
 }
 
-/* footer */
+/* ---- footer ---- */
 
+/* estilo do rodapé */
 footer {
     height: 50px;
     background-color: #445969;
@@ -117,8 +132,10 @@ footer {
     font-family: 'Quicksand', sans-serif;
     margin-top: auto;
     padding: 0.5% 0;
+    /* Define a altura, cor de fundo, layout, espaçamento, cor do texto e fonte para o rodapé. */
 }
 
+/* estilo do container do rodapé */
 .footer-container {
     display: flex;
     justify-content: space-between;
@@ -126,26 +143,37 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    /* Configura o layout, espaçamento, largura máxima e centralização do container do rodapé. */
 }
 
+/* estilo do parágrafo no container do rodapé */
 .footer-container p {
     font-size: 14px;
+    /* Define o tamanho da fonte para o parágrafo no container do rodapé. */
 }
 
+/* estilo do parágrafo no rodapé */
 footer p {
     color: #05EFA0; 
     font-family: 'Quicksand', sans-serif; 
+    /* Define a cor do texto e a fonte para o parágrafo no rodapé. */
 }
 
+/* estilo dos ícones sociais */
 .social-icons {
     display: flex;
+    /* Configura o layout para exibir os ícones sociais em linha. */
 }
 
+/* estilo dos links dos ícones sociais */
 .social-icons a {
     color: #05EFA0;
     margin-left: 10px;
+    /* Define a cor e a margem esquerda para os links dos ícones sociais. */
 }
 
+/* estilo dos ícones */
 .social-icons i {
     font-size: 20px;
+    /* Define o tamanho da fonte para os ícones sociais. */
 }
