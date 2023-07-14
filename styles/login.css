@@ -81,6 +81,7 @@ input {
 /* Define a posição do botão do produto */
 .botao-produto {
     float: right;
+    margin-bottom: 0%;
 }
 
 /* Define o layout, as margens e a largura da div que contém os botões de ação de login */

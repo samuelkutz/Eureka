@@ -1,8 +1,10 @@
+/* Estilo do corpo */
 body {
     background-color: #F1EAE2;
     /* Define a cor de fundo do corpo como um bege claro. */
 }
 
+/* Estilo do título e parágrafo */
 .tituloEParagrafo {
     height: 20%;
     width: 40%;
@@ -10,24 +12,30 @@ body {
     flex-direction: column;
     justify-content: center;
     padding-top: 5%;
+    /* Configuração para o título e parágrafo ocuparem 20% de altura, 40% de largura, serem exibidos em coluna, centralizados verticalmente e com espaçamento superior de 5%. */
 }
 
+/* Estilo do título */
 h1 {
     font-family: 'Quicksand', sans-serif;
     color: #445969;
     font-size: 82px;
     justify-content: left;
     padding-left: 30px;
+    /* Define a fonte, cor e tamanho do título, alinhamento à esquerda e espaçamento à esquerda de 30px. */
 }
 
+/* Estilo dos botões da página inicial */
 .home-botoes {
     width: 50%;
     display: flex;
     justify-content: left;
     gap: 5%;
     padding-left: 30px;
+    /* Configuração para os botões ocuparem 50% de largura, serem exibidos à esquerda com espaço de 5% entre eles e espaçamento à esquerda de 30px. */
 }
 
+/* Estilo do botão da página inicial */
 .home-btn {
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     background-size: 200% 100%;
@@ -44,15 +52,17 @@ h1 {
     height: 40px;
     cursor: pointer;
     transition: background-position 1s ease-in-out;
-    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão do produto. */
+    /* Define o gradiente de fundo, tamanho e posição de fundo, borda, alinhamento do texto, fonte, cor do texto, margem superior, espaçamento superior, arredondamento da borda, dimensões, ponteiro do cursor e transição para o botão da página inicial. */
 }
 
+/* Estilo do botão da página inicial ao passar o mouse */
 .home-btn:hover {
     background-position: 0 0;
     transform: scale(1.05);
-    /* Define a posição do plano de fundo e a transformação do botão do produto quando o mouse passa sobre ele. */
+    /* Define a posição do plano de fundo e a transformação do botão da página inicial quando o mouse passa sobre ele. */
 }
 
+/* Estilo do container da página inicial */
 .container-home {
     display: flex;
     flex-direction: row;
@@ -61,8 +71,10 @@ h1 {
     padding-bottom: 0%;
     margin-top: 0%;
     padding-top: 0%;
+    /* Configuração para o container ocupar a largura total, ser exibido em linha com espaço igual entre os elementos, sem margem e preenchimento vertical. */
 }
 
+/* Estilo do iframe da página inicial */
 iframe {
     width: fit-content;
     display: flex;
@@ -72,14 +84,21 @@ iframe {
     margin-right: 15%;
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     border: 4px solid transparent;
+<<<<<<< HEAD
     margin-bottom: 5%;
+=======
+    /* Configuração para o iframe ter largura ajustada ao conteúdo, ser alinhado à direita, ter borda arredondada de 15px, margem superior de 5%, margem direita de 15%, gradiente de fundo e borda transparente. */
+>>>>>>> 643de670cd99eeac76ff196897d79d5b08955eeb
 }
 
+/* Estilo do container de texto da página inicial */
 .text-container {
     width: 100%;
     height: 100%;
+    /* Configuração para o container de texto ocupar a largura e altura total. */
 }
 
+/* Estilo do parágrafo da página inicial */
 p {
     font-family: 'Raleway', sans-serif;
     color: #445969;
@@ -88,4 +107,5 @@ p {
     padding-left: 30px;
     justify-content: left;
     width: 170%;
+    /* Define a fonte, cor, tamanho, espaçamento superior, espaçamento à esquerda, alinhamento à esquerda e largura do parágrafo. */
 }

@@ -1,52 +1,53 @@
-class Client {
-    constructor(user, email, password, RG, CEP) {
+class Client{
+    constructor(user, email, password, RG, CEP){
         this.user = user
         this.email = email
         this.password = password // encriptar??
 
-        this.RG = RG
+        this.RG = RG 
         this.CEP = CEP
     }
 
     //GETTERS
-    getUser() {
+    getUser(){
         return this.user
     }
-
-    getEmail() {
+    
+    getEmail(){
         return this.email
     }
-
-    getPassword(password) {
+    
+    getPassword(password){
         return this.password
     }
-
-    getRG() {
+    
+    getRG(){
         return this.RG
     }
-
-    getCEP() {
+    
+    getCEP(){
         return this.CEP
     }
-
+    
     //SETTERS
-    setUser(user) {
+    setUser(user){
         this.user = user
     }
 
-    setEmail(email) {
+    setEmail(email){
         this.email = email
     }
 
-    setPassword(password) {
+    setPassword(password){
         this.password = password
     }
 
-    setRG(RG) {
+    setRG(RG){
         this.RG = RG
     }
-
-    set(CEP) {
+    
+    set(CEP){
         this.CEP = CEP
     }
+    
 }

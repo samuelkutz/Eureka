@@ -29,6 +29,12 @@ botaoInscrever.addEventListener("click", function () {
         return
     }
 
+    if (!controller.isValidEmail(email)){
+        alert(("Email Inválido!"))
+        return
+    }
+
+
     view.renderListaEspera()
     setTimeout(() => { window.location.href = "./index.html" }, 3000)
 })
