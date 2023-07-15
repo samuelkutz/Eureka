@@ -84,11 +84,7 @@ iframe {
     margin-right: 15%;
     background: linear-gradient(270deg, #05efa0, #06b5f6, #05efa0, #06b5f6);
     border: 4px solid transparent;
-<<<<<<< HEAD
-    margin-bottom: 5%;
-=======
     /* Configuração para o iframe ter largura ajustada ao conteúdo, ser alinhado à direita, ter borda arredondada de 15px, margem superior de 5%, margem direita de 15%, gradiente de fundo e borda transparente. */
->>>>>>> 643de670cd99eeac76ff196897d79d5b08955eeb
 }
 
 /* Estilo do container de texto da página inicial */
