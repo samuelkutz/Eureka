@@ -1,9 +1,9 @@
 class Client{
-    constructor(user, email, password, RG, CEP){
-        this.user = user
+    constructor(email, password){
         this.email = email
         this.password = password // encriptar??
-
+        
+        this.user = user
         this.RG = RG 
         this.CEP = CEP
     }
