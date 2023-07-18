@@ -9,7 +9,10 @@ document.querySelector("#redefinir-senha").addEventListener("click", function ()
 
     if (validateEmailResponse == "Sucesso") {
         //finja que o email foi autenticado com 2 fatores e tal :P 
-        view.renderSentEmail(email)
+        view.render(".secao-login",`
+        <p class="titulo" style="margin-top: 10%; font-size: larger">Um email com sua nova senha foi enviado para: </p> 
+        <p class="titulo" style="margin-top: 10%; font-size: larger"><b style="padding-left: 10%;">${email}</b></p>
+        `)
 
         setTimeout(() => { window.location.href = "./login.html" }, 5000) // redirect login
     }

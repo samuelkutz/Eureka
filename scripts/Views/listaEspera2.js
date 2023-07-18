@@ -26,10 +26,13 @@ document.querySelector("#botao-inscrever").addEventListener("click", function ()
     let validateEmailResponse = controller.validateEmail(campoEmail)
 
     if (validateEmailResponse == "Sucesso"){
-        view.renderListaEspera()
+        view.render("main", `
+        <h2 class="titulo" style="margin-top: 10%;">Cadastro efetuado na lista de espera!</h2>
+        <h2 class="titulo" stle="margin-top: 0%"; padding-top:0%; font-weight: 300">Fique ligado no seu email para mais novidades</h2>
+        `)
         setTimeout(() => { window.location.href = "./index.html" }, 3000)
     }
     else{
-        alert((validateEmailResponse))
+        alert(validateEmailResponse)
     }
 })
